@@ -11,3 +11,4 @@ We formalize _reactive coeffects_, in which each change of the context notifies 
 We unify the effect context and the coeffect context into a single _context type_, which constitutes a programming paradigm.
 After that, we combine these mechanisms into the notion of a _component_ and give a calculus of dynamic composition, whose metatheory carries spatiotemporal composability from a single component to a whole system of interleaved components.
 We implement these ideas in _Cordis_, a meta-framework of spatiotemporal composability that provides a core library with effect tracking and coeffect resolution, as well as a declarative component loader with configuration reconciliation and hot module replacement.
+
